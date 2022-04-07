@@ -2,7 +2,6 @@ import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 import 'package:flutter_app_bloc/states/counter_state.dart';
 import 'package:flutter_app_bloc/views/counter_view_cubit.dart';
-import 'package:flutter_app_bloc/CounterObserver.dart';
 import 'package:flutter_app_bloc/cubits/CounterCubit.dart';
 class CounterViewCubit extends StatelessWidget {
   @override
